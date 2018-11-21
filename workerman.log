@@ -1,0 +1,274 @@
+2018-11-12 09:17:45 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\server.php:47
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2388): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\server.php(59): Workerman\Worker::runAll()
+#9 {main}
+2018-11-12 09:17:45 pid:1 Worker process terminated
+2018-11-12 09:20:01 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\server.php:47
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2388): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\server.php(59): Workerman\Worker::runAll()
+#9 {main}
+2018-11-12 09:20:01 pid:1 Worker process terminated
+2018-11-12 13:31:41 pid:1 Worker process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Workerman\Connection\TcpConnection could not be converted to string in C:\Users\moon\Desktop\Workman\聊天室-频道聊天\server.php on line 54"
+2018-11-14 01:30:48 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:98
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'jack:sdfsg')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'jack:sdfsg')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(126): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 01:30:48 pid:1 Worker process terminated
+2018-11-14 01:33:14 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:98
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'jack:sdfsaf')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'jack:sdfsaf')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(126): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 01:33:14 pid:1 Worker process terminated
+2018-11-14 01:34:18 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:98
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'jack:ersgfvSGD')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'jack:ersgfvSGD')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(126): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 01:34:18 pid:1 Worker process terminated
+2018-11-14 01:35:04 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:98
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'alldfghjk')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'alldfghjk')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(126): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 01:35:04 pid:1 Worker process terminated
+2018-11-14 01:43:13 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:98
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'jack:sfsdf')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'jack:sfsdf')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(126): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 01:43:13 pid:1 Worker process terminated
+2018-11-14 01:45:57 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:98
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'tom:sdfsd')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'tom:sdfsd')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(126): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 01:45:57 pid:1 Worker process terminated
+2018-11-14 09:46:15 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:103
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'all:dsfadf')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'all:dsfadf')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(131): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 09:46:15 pid:1 Worker process terminated
+2018-11-14 09:48:57 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:104
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '2:wsdfsg')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '2:wsdfsg')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(132): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 09:48:57 pid:1 Worker process terminated
+2018-11-14 09:49:41 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:104
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '1:sdffd')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '1:sdffd')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(132): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 09:49:41 pid:1 Worker process terminated
+2018-11-14 09:57:32 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:104
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '1:dfgsdgs')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '1:dfgsdgs')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(132): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 09:57:32 pid:1 Worker process terminated
+2018-11-14 10:02:11 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:104
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '1:sadfsadf')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '1:sadfsadf')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(132): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 10:02:11 pid:1 Worker process terminated
+2018-11-14 10:07:07 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:104
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '2:qqq')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '2:qqq')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(132): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 10:07:07 pid:1 Worker process terminated
+2018-11-14 10:13:59 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:104
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '2:qqq')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '2:qqq')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(132): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 10:13:59 pid:1 Worker process terminated
+2018-11-14 10:15:12 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:105
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '2:qqq')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '2:qqq')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(133): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 10:15:12 pid:1 Worker process terminated
+2018-11-14 10:16:15 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Workman\Login token\server.php:106
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '2:aaa')
+#1 C:\Users\moon\Desktop\Workman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '2:aaa')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 C:\Users\moon\Desktop\Workman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Workman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Workman\Login token\server.php(134): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 10:16:15 pid:1 Worker process terminated
+2018-11-16 11:54:28 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Login token\2\server.php:136
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':sdfasfd')
+#1 C:\Users\moon\Desktop\Login token\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':sdfasfd')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#3 C:\Users\moon\Desktop\Login token\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Login token\2\server.php(180): Workerman\Worker::runAll()
+#9 {main}
+2018-11-16 11:54:28 pid:1 Worker process terminated
+2018-11-16 12:10:32 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Login token\2\server.php:136
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':sdfasdf')
+#1 C:\Users\moon\Desktop\Login token\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':sdfasdf')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 C:\Users\moon\Desktop\Login token\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Login token\2\server.php(180): Workerman\Worker::runAll()
+#9 {main}
+2018-11-16 12:10:32 pid:1 Worker process terminated
+2018-11-16 12:15:26 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Login token\2\server.php:136
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':sdfsdf')
+#1 C:\Users\moon\Desktop\Login token\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':sdfsdf')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\Users\moon\Desktop\Login token\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Login token\2\server.php(180): Workerman\Worker::runAll()
+#9 {main}
+2018-11-16 12:15:26 pid:1 Worker process terminated
+2018-11-16 13:30:35 pid:1 Error: Call to a member function send() on null in C:\Users\moon\Desktop\Login token\2\server.php:136
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':\xE9\x98\xBF\xE8\x90\xA8\xE5\xBE\xB7\xE5\x8F\x91\xE7\x9A...')
+#1 C:\Users\moon\Desktop\Login token\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':\xE9\x98\xBF\xE8\x90\xA8\xE5\xBE\xB7\xE5\x8F\x91\xE7\x9A...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 C:\Users\moon\Desktop\Login token\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 C:\Users\moon\Desktop\Login token\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 C:\Users\moon\Desktop\Login token\2\server.php(180): Workerman\Worker::runAll()
+#9 {main}
+2018-11-16 13:30:35 pid:1 Worker process terminated

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div id="app" class="login-wrapper">
+        <div class="login-left">
+            
+          <img src="img/bg-login_bxxfkf.png">
+          <div class="h1">Enter the Nebula</div>
+        </div>
+        <div class="login-right">
+          <div class="h2">Register</div>
+          <div class="form-group">
+            <input type="text" id="full-name" v-model="username" placeholder="Full Name">
+            <label for="full-name">Full Name</label>    
+          </div>
+          <div class="form-group">
+            <input type="password" v-model="password" id="Password" placeholder="Password">
+            <label for="Password">Password</label>    
+          </div>
+          <div class="button-area">
+            <button @click="login" class="btn btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+<script src="js/vue.min.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/jquery.js"></script>
+<script>
+
+
+new Vue({
+    el:'#app',
+    data: {
+        username:'',
+        password:''
+    },
+    methods:{
+        login:function(){
+            // 调用登录接口
+            axios.post('http://localhost:9999/login.php', {
+                            username: this.username,
+                            password: this.password
+                        })
+                        .then(function (response) {
+                            if(response.data.code == 200) {
+
+                                localStorage.setItem('jwt_token',response.data.jwt);
+                                location.href="index.html";
+                            } else {
+
+                                alert(response.data.error);
+                            }
+                        })
+        }
+    }
+})
+
+
+var openLoginRight = document.querySelector('.h1');
+var loginWrapper = document.querySelector('.login-wrapper');
+
+openLoginRight.addEventListener('click', function(){
+  loginWrapper.classList.toggle('open'); 
+});
+
+</script>
+
+
+<!-- <script>
+        new Vue({
+            el:'#app',
+            data:{
+                username:'',
+                password:''
+            },
+            methods:{
+                login:function () {
+                    let para = {
+                        username: this.username,
+                        password: this.password
+                    }
+                    axios({
+                        method:'post',
+                        url:'http://localhost:9999/login.php',
+                        data:para
+                    }).then((res)=>{
+                        if(res.data.code == 200){
+                            localStorage.setItem('jwt_token',res.data.jwt);
+                            location.href = "index.html"
+                        }else{
+                            alert(res.data.error)
+                        }
+                    })
+                }
+            }
+        })
+    
+        var openLoginRight = document.querySelector('.h1');
+        var loginWrapper = document.querySelector('.login-wrapper');
+        
+        openLoginRight.addEventListener('click', function(){
+          loginWrapper.classList.toggle('open'); 
+        });
+    
+    </script> -->
